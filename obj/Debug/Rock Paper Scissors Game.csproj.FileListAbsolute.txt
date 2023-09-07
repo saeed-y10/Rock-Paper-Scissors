@@ -8,4 +8,4 @@ C:\Users\saeed\source\repos\Rock Paper Scissors Game\obj\Debug\Rock Paper Scisso
 C:\Users\saeed\source\repos\Rock Paper Scissors Game\obj\Debug\Rock Paper Scissors Game.csproj.CoreCompileInputs.cache
 C:\Users\saeed\source\repos\Rock Paper Scissors Game\obj\Debug\Rock Paper Scissors Game.exe
 C:\Users\saeed\source\repos\Rock Paper Scissors Game\obj\Debug\Rock Paper Scissors Game.pdb
-C:\Users\saeed\source\repos\Rock Paper Scissors Game\obj\Debug\Rock_Paper_Scissors_Game.Form2.resources
+C:\Users\saeed\source\repos\Rock Paper Scissors Game\obj\Debug\Rock Paper Scissors Game.csproj.AssemblyReference.cache

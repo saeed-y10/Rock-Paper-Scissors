@@ -19,6 +19,12 @@ namespace Rock_Paper_Scissors_Game
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            lblPlayer1Score.Text = "0";
+            lblPlayer2Score.Text = "0";
+
+            RoundInfo.Player1Choice = enGameChoice.Rock;
+            RoundInfo.Player2Choice = enGameChoice.Rock;
+            RoundInfo.winner = enWinner.Draw;
         }
 
         struct stRoundInfo
@@ -95,23 +101,23 @@ namespace Rock_Paper_Scissors_Game
 
         private void UpdatePlayersChoiceImg()
         {
-            UpdateChoiceImg((PictureBox)pbPlayer1, RoundInfo.Player1Choice);
-            UpdateChoiceImg((PictureBox)pbPlayer2, RoundInfo.Player2Choice);
+            UpdateChoiceImg((PictureBox)pbPlayer1Choice, RoundInfo.Player1Choice);
+            UpdateChoiceImg((PictureBox)pbPlayer2Choice, RoundInfo.Player2Choice);
         }
 
         private void UpdateRoundResult()
         {
             if (RoundInfo.winner == enWinner.Player1)
-                pbWinner.Image = Properties.Resources.Winner;
+                pbRoundWinner.Image = Properties.Resources.Winner;
 
             else if (RoundInfo.winner == enWinner.Player2)
-                pbWinner.Image = Properties.Resources.Loser;
+                pbRoundWinner.Image = Properties.Resources.Loser;
 
             else
-                pbWinner.Image = Properties.Resources.Draw;
+                pbRoundWinner.Image = Properties.Resources.Draw;
         }
 
-        private void UpdateGameScore()
+        private void UpdateScoreBoard()
         {
             if (RoundInfo.winner == enWinner.Player1)
                 lblPlayer1Score.Text = (Convert.ToInt32(lblPlayer1Score.Text) + 1).ToString();
@@ -125,10 +131,9 @@ namespace Rock_Paper_Scissors_Game
             lblPlayer1Score.Text = "0";
             lblPlayer2Score.Text = "0";
 
-            pbPlayer1.Image = null;
-            pbPlayer2.Image = null; 
-
-            pbWinner.Image = null;
+            pbPlayer1Choice.Image = null;
+            pbPlayer2Choice.Image = null; 
+            pbRoundWinner.Image = null;
         }
 
         private void SetRoundInfo(enGameChoice Player1Chpice)
@@ -139,7 +144,7 @@ namespace Rock_Paper_Scissors_Game
 
             UpdatePlayersChoiceImg();
             UpdateRoundResult();
-            UpdateGameScore();
+            UpdateScoreBoard();
         }
 
         private void btnRock_Click(object sender, EventArgs e)
