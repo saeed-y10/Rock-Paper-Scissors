@@ -1,0 +1,11 @@
+C:\Users\saeed\source\repos\Rock Paper Scissors Game\bin\Debug\Rock Paper Scissors Game.exe.config
+C:\Users\saeed\source\repos\Rock Paper Scissors Game\bin\Debug\Rock Paper Scissors Game.exe
+C:\Users\saeed\source\repos\Rock Paper Scissors Game\bin\Debug\Rock Paper Scissors Game.pdb
+C:\Users\saeed\source\repos\Rock Paper Scissors Game\obj\Debug\Rock Paper Scissors Game.csproj.SuggestedBindingRedirects.cache
+C:\Users\saeed\source\repos\Rock Paper Scissors Game\obj\Debug\Rock_Paper_Scissors_Game.Form1.resources
+C:\Users\saeed\source\repos\Rock Paper Scissors Game\obj\Debug\Rock_Paper_Scissors_Game.Properties.Resources.resources
+C:\Users\saeed\source\repos\Rock Paper Scissors Game\obj\Debug\Rock Paper Scissors Game.csproj.GenerateResource.cache
+C:\Users\saeed\source\repos\Rock Paper Scissors Game\obj\Debug\Rock Paper Scissors Game.csproj.CoreCompileInputs.cache
+C:\Users\saeed\source\repos\Rock Paper Scissors Game\obj\Debug\Rock Paper Scissors Game.exe
+C:\Users\saeed\source\repos\Rock Paper Scissors Game\obj\Debug\Rock Paper Scissors Game.pdb
+C:\Users\saeed\source\repos\Rock Paper Scissors Game\obj\Debug\Rock_Paper_Scissors_Game.Form2.resources
